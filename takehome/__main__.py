@@ -1,7 +1,7 @@
 import click
 
 from takehome.solutions import demo_solution
-from takehome.solutions import solution1
+from takehome.solutions import solution2
 from takehome.solutions import solution7
 
 
@@ -15,9 +15,9 @@ def demo() -> None:
     demo_solution()
 
 
-@cli.command(name="question1")
-def question1() -> None:
-    solution1()
+@cli.command(name="question2")
+def question2() -> None:
+    solution2()
 
 
 @cli.command(name="question7")
