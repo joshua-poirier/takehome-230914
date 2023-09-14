@@ -147,7 +147,11 @@ Expected output (rows in any order):
 Fill in the blanks (no solution here).
 
 ### Question 6
-Fill in the blanks (no solution here).
+Fill in the blanks - demonstrating an understanding of recursive functions. Quick
+implementation of the recursive function here.
 
 ### Question 7
-Number picker.
+It takes 2040 digits to give ID's to all employees. How many employee's are there?
+
+For example, it takes 15 digits to cover 12 employees
+([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]).
