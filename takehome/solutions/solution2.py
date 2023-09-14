@@ -3,8 +3,7 @@ SMALL_CAPACITY: int = 1
 
 
 def solution2() -> None:
-    """Interface I can iterate on quickly before copying the solution to the employer.
-    """
+    """Interface I can iterate on quickly before copying the solution to the employer."""
     answer = minimal_number_of_packages(16, 2, 10)
     print(answer)
 
