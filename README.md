@@ -61,19 +61,19 @@ INSERT INTO fsib(companyName, sharePrice, sharesOutstanding) VALUES('Solitude Lt
 INSERT INTO fsib(companyName, sharePrice, sharesOutstanding) VALUES('Universal Exports LLC', 1.2, 2300);
 ```
 
--- Expected output:
--- companyName           marketCapitalization
--- ---------------------------------------------
--- Baggage Enterprise    12500 
--- Fun Book Corporation  10000 
--- Macaroni Inc.         8000 
--- Solitude Ltd.         7500 
--- Universal Exports LLC 2760  
+Expected outut:
+| companyName           | marketCapitalization |
+| --------------------- | -------------------- |
+| Baggage Enterprice    | 12500                |
+| Fun Book Corporation  | 10000                |
+| Macaroni Inc.         | 8000                 |
+| Solitude Ltd.         | 7500                 |
+| Universal Exports LLC | 2760                 |
 
--- Explanation:
--- In this example.
--- Baggage Enterprise is the largest company, it therefore appears first in the results.
--- The companies descend in order by marketCapitalization until Universal Exports LLC which is the smallest.
+Explanation:
+In this example Baggage Enterprise is the largest company, it therefore appears first in
+the results. The companies descend in order by marketCapitalization until Universal
+Exports LLC which is the smallest.
 
 ### Question 4
 A SQL problem.
