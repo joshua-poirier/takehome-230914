@@ -17,8 +17,7 @@ def test_sufficient_packages(
     available_small_packages: int,
     expected: int,
 ) -> None:
-    """Happy path testing
-    """
+    """Happy path testing"""
     actual = minimal_number_of_packages(
         items=items,
         available_large_packages=available_large_packages,
@@ -42,8 +41,7 @@ def test_too_few_packages(
     available_large_packages: int,
     available_small_packages: int,
 ) -> None:
-    """Sad path testing
-    """
+    """Sad path testing"""
     actual = minimal_number_of_packages(
         items=items,
         available_large_packages=available_large_packages,
